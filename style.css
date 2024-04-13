@@ -1175,50 +1175,50 @@ footer {
     background-color: var(--main-color);
 }
 
-.copyrightsec {
+.l-footer {
     background-color: #151414;
     width: 100%;
     height: 70px;
     justify-content: space-between;
 }
 
-.copyright {
+.l-footer {
     width: 100%;
     color: #fff;
     justify-content: space-between;
 }
 
-.copyright h2 {
+.l-footer h2 {
     font-family: var(--font-family);
     text-transform: uppercase;
 }
 
-.copyright h2 span {
+.l-footer h2 span {
     color: var(--main-color);
 }
 
-.copyright div {
+.l-footer div {
     gap: 12px;
 }
 
-.copyright div p {
+.l-footer div p {
     font-size: 14px;
 }
 
-.copyright ul {
+.l-footer ul {
     gap: 20px;
 }
 
-.copyright ul li a {
+.l-footer ul li a {
     color: #fff;
     font-size: 13px;
     transition: .2s linear;
 }
 
-.copyright ul li a:hover {
+.l-footer ul li a:hover {
     color: var(--main-color);
 }
 
-.copyright ul li .factive {
+.l-footer ul li .factive {
     color: var(--main-color);
 }
