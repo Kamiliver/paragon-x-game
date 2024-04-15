@@ -6,8 +6,13 @@
     box-sizing: border-box;
 }
 
+#contain {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    background-color: #FFFFFF;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -1222,3 +1227,401 @@ footer {
 .l-footer ul li .factive {
     color: var(--main-color);
 }
+
+/* For larger screens */
+@media screen and (min-width: 1025px) {
+    header {
+        height: 90vh;
+    }
+
+    .nav1 {
+        padding: 25px;
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        margin-left: -70px;
+        margin-top: -40px;
+    }
+
+    .navlist ul {
+        display: flex;
+    }
+
+    .labels {
+        display: flex;
+    }
+
+    .headercont {
+        padding-top: 12rem;
+    }
+
+    .headercont h1 {
+        font-size: 4.8vw;
+    }
+
+    .headercont p {
+        font-size: 1.3rem;
+    }
+
+    .headbtn {
+        margin: 80px 0;
+        gap: 60px;
+    }
+
+    .button {
+        height: 60px;
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .type1::after,
+    .type2::after {
+        height: 60px;
+        width: 180px;
+        font-size: 1.6rem;
+    }
+
+    .type1::before,
+    .type2::before {
+        font-size: 1.3rem;
+    }
+
+    .dots {
+        bottom: 6%;
+    }
+
+    .dot {
+        width: 20px;
+        height: 20px;
+    }
+
+    .threebox {
+        gap: 25px;
+    }
+
+    .cbox {
+        height: 380px;
+        margin-top: 120px;
+    }
+
+    .cboxde {
+        padding: 70px;
+    }
+
+    .cboxde h2 {
+        font-size: 2.5rem;
+    }
+
+    .cboxde p {
+        font-size: 1.5rem;
+    }
+
+    .filter button {
+        margin-top: 120px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        padding: 25px 35px;
+    }
+
+    .gamecards {
+        justify-content: space-between;
+    }
+
+    .card {
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .cardimg {
+        height: 420px;
+    }
+
+    .cardinfo h2 {
+        font-size: 28px;
+    }
+
+    .playteg h3 {
+        font-size: 18px;
+    }
+
+    .playteg h3 a {
+        font-size: 17px;
+    }
+
+    .allgamebtn a button {
+        margin: 80px auto;
+        font-size: 20px;
+        padding: 25px 30px;
+    }
+
+    .gamesearch {
+        margin-top: 120px;
+        height: 250px;
+    }
+
+    .gamesearch h2 {
+        font-size: 3rem;
+    }
+
+    .gamesearch form input,
+    .gamesearch form select,
+    .gamesearch form button {
+        padding: 25px 40px;
+    }
+
+    .gamesearch form button {
+        font-size: 20px;
+    }
+
+    .newrelesed {
+        height: 80vh;
+    }
+
+    .newretitle h2 {
+        font-size: 3.5rem;
+        line-height: 60px;
+    }
+
+    .newrelesed p {
+        padding-right: 40rem;
+    }
+
+    .aboutus {
+        height: 70vh;
+    }
+
+    .aboutusdetails {
+        width: 45%;
+    }
+
+    .aboutusimg {
+        width: 55%;
+        height: 400px;
+    }
+
+    .gameshop h2 {
+        margin-top: 15rem;
+        font-size: 3.5rem;
+        margin-bottom: 80px;
+    }
+
+    .shopcards {
+        justify-content: space-between;
+    }
+
+    .scard {
+        min-width: 350px;
+        max-width: 350px;
+        margin-bottom: 60px;
+    }
+
+    .scard img {
+        height: 400px;
+    }
+
+    .socialicons {
+        height: 280px;
+    }
+
+    .social h3 {
+        font-size: 22px;
+    }
+}
+
+/* For medium screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        height: 80vh;
+    }
+
+    .nav1 {
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+
+    .navlist ul {
+        display: flex;
+    }
+
+    .labels {
+        display: flex;
+    }
+
+    .headercont {
+        padding-top: 10rem;
+    }
+
+    .headercont h1 {
+        font-size: 3.2rem;
+    }
+
+    .headercont p {
+        font-size: 1.2rem;
+    }
+
+    .headbtn {
+        margin: 40px 0;
+        gap: 30px;
+    }
+
+    .button {
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .type1::after,
+    .type2::after {
+        height: 50px;
+        width: 150px;
+        font-size: 1.4rem;
+    }
+
+    .type1::before,
+    .type2::before {
+        font-size: 1.1rem;
+    }
+
+    .dots {
+        bottom: 5%;
+    }
+
+    .dot {
+        width: 16px;
+        height: 16px;
+    }
+
+    .threebox {
+        gap: 20px;
+    }
+
+    .cbox {
+        height: 300px;
+        margin-top: 80px;
+    }
+
+    .cboxde {
+        padding: 60px;
+    }
+
+    .cboxde h2 {
+        font-size: 2.2rem;
+    }
+
+    .cboxde p {
+        font-size: 1.4rem;
+    }
+
+    .filter button {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        padding: 20px 28px;
+    }
+
+    .gamecards {
+        justify-content: flex-start;
+    }
+
+    .card {
+        min-width: 250px;
+        max-width: 250px;
+    }
+
+    .cardimg {
+        height: 380px;
+    }
+
+    .cardinfo h2 {
+        font-size: 24px;
+    }
+
+    .playteg h3 {
+        font-size: 16px;
+    }
+
+    .playteg h3 a {
+        font-size: 15px;
+    }
+
+    .allgamebtn a button {
+        margin: 60px auto;
+        font-size: 18px;
+        padding: 20px 25px;
+    }
+
+    .gamesearch {
+        margin-top: 100px;
+        height: 200px;
+    }
+
+    .gamesearch h2 {
+        font-size: 2.5rem;
+    }
+
+    .gamesearch form input,
+    .gamesearch form select,
+    .gamesearch form button {
+        padding: 20px 30px;
+    }
+
+    .gamesearch form button {
+        font-size: 18px;
+    }
+
+    .newrelesed {
+        height: 70vh;
+    }
+
+    .newretitle h2 {
+        font-size: 3rem;
+        line-height: 55px;
+    }
+
+    .newrelesed p {
+        padding-right: 20rem;
+    }
+
+    .aboutus {
+        height: 60vh;
+    }
+
+    .aboutusdetails {
+        width: 50%;
+    }
+
+    .aboutusimg {
+        width: 50%;
+        height: 350px;
+    }
+
+    .gameshop h2 {
+        margin-top: 10rem;
+        font-size: 3rem;
+        margin-bottom: 70px;
+    }
+
+    .shopcards {
+        justify-content: space-between;
+    }
+
+    .scard {
+        min-width: 300px;
+        max-width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .scard img {
+        height: 350px;
+    }
+
+    .socialicons {
+        height: 250px;
+    }
+
+    .social h3 {
+        font-size: 20px;
+    }
+}
+
